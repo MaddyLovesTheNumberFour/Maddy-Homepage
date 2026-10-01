@@ -1,0 +1,86 @@
+/* Remove o espaçamento de todo elemento html */
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:#fffbfb; /* define cor de fundo */
+    color:#000000; /* define a cor da fonte */
+    font-family:helvetica; /* define a fonte do projeto */
+}
+
+header{
+    background-color: #d3c1c1ff;
+    padding: 20px; /* espaçamento interno do elemento */
+}
+
+main{
+    max-width: 1200px; /* largura máxima do elemento */
+    margin:0 auto; /* margem sup e inf = 0; Margem esq e dir automática*/
+}
+
+#banner{
+    background-color: #d3c1c1;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+#servicos{
+    background-color: #d3c1c1;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+#funcionamento{
+    background-color: #d3c1c1;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+#contato{
+    background-color: #d3c1c1;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+#clientes{
+    background-color: #d3c1c1;
+    margin: 10px; /* espaçamento externo */
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+}
+
+
+
+footer{
+    background-color: #d3c1c1;
+    padding: 10px;
+    text-align: center; /* alinha o texto ao centro */
+}
+
+/* Formatação do menu de navegação */
+
+nav{
+    background-color: #d3c1c1;
+    padding: 20px;
+}
+
+nav ul li{
+    display:inline; /* posiciona itens em linha */
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none; /* remove underline ou formatações no texto */
+    color:#000000ef;
+}
+
+nav ul li a:hover{
+    text-decoration: underline; /* insere underline no texto*/
+    color:#2c0000;
+}

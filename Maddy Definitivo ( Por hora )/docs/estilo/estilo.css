@@ -1,0 +1,210 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px;
+    border: 1px solid white;
+}
+
+a {
+    color: #9e9d9dcc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #833E58;
+}
+
+body{
+    background-color: rgb(4, 10, 10); 
+    color:#ffffff; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: medium;
+    background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.50) 1px,
+    transparent 1px
+    );
+    background-size: 20px 20px;
+}
+
+#menu {
+
+    font-size: 20px;
+    border: 1px solid white;
+
+}
+
+main{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+#gostos{
+    font-size: large;
+    background-color: rgb(8, 10, 10);
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+#projetos{
+    font-size: large;
+    background-color: rgb(8, 10, 10);
+    padding: 20px;
+    border-radius: 10px; 
+    border: 1px solid white;
+}
+
+.div-textos-centrais {
+
+    text-align: center;
+
+}
+
+#inicio{
+    font-size: large;
+    background-color: rgb(8, 10, 10);
+    padding: 20px; 
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.div-perfil {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.perfil-mokou {
+    width: 150px;
+    height: auto;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+.perfil-mokou:hover {
+
+    transform: scale(1.08);
+    box-shadow: 4px 4px 50px #eeeded;
+
+}
+
+.texto-perfil-div {
+    flex: 1;
+}
+
+.imagem-recente {
+
+        
+    border: solid 3px #faf9fa;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+
+}
+
+.imagem-recente:hover {
+
+    transform: scale(1.04);
+    box-shadow: 4px 4px 50px #eeeded;
+
+}
+
+.div-imagem {
+    display: flex;
+    gap: 20px;
+    align-items: top;
+}
+
+.div-texto-imagem {
+    flex: 1;
+    margin: 10px;
+    line-height: 1.08;
+}
+
+#minhas-redes-sociais{
+    font-size: large;
+    background-color: rgb(8, 10, 10);
+    margin: 10px; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+footer{
+    font-size: large;
+    background-color: rgb(8, 10, 10);
+    padding: 10px;
+    text-align: center; 
+    border: 1px solid white;   
+}
+
+#footer-nav{
+    background-color: rgb(8, 10, 10);
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav{
+    background-color: rgb(8, 10, 10);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li{
+    display:inline; 
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none; 
+    color: #9e9d9dcc;
+}
+
+nav ul li a:hover{
+    text-decoration: underline; 
+    color: #833E58;
+}
+
+section ul {
+padding-left: 20px;
+}
+
+html {
+    scrollbar-width:auto;
+    scrollbar-color:#faf9fa;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(8, 10, 10);
+    border-radius: 1;
+    border: solid 1px #faf9fa;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#faf9fa;
+    border-radius: 10px;
+    border: solid 0.5px black;
+}
+
