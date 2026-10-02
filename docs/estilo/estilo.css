@@ -27,11 +27,15 @@ section {
 a {
     color: #9e9d9dcc;
     text-decoration: none;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+    display: inline-block   ;
 }
 
 a:hover {
     text-decoration: underline;
     color: #833E58;
+    transform: scale(1.03);
 }
 
 body{
