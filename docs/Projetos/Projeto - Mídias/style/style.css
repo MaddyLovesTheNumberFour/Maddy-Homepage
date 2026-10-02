@@ -54,14 +54,18 @@ nav{
 
 a {
     color: rgba(165, 131, 180, 0.87);
-    text-decoration: none; 
+    text-decoration: none;
+    display: inline-block;
+    flex-shrink: 0;
+    transition: 0.3s ease;
 }
 
 a:hover {
 
     text-decoration: underline;
     color: rgb(220, 173, 238);
-
+    transform: scale(1.03);
+    
 }
 
 .div-texto-alinhado {
