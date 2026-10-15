@@ -1,6 +1,11 @@
 *{
     padding:0;
     margin:0;
+    img {
+
+        width: 100%;
+        height: auto;
+    }
 }
 
 p {
@@ -106,10 +111,8 @@ main{
 }
 
 .perfil-mokou:hover {
-
     transform: scale(1.05);
     box-shadow: 4px 4px 50px #eeeded;
-
 }
 
 .texto-perfil-div {
@@ -117,19 +120,17 @@ main{
 }
 
 .imagem-recente {
-
-        
     border: solid 3px #faf9fa;
     flex-shrink: 0;
     transition: 0.3s ease;
-
+    max-width: 560px;
+    width: 100%;
+    height: 315px;
 }
 
 .imagem-recente:hover {
-
     transform: scale(1.01);
     box-shadow: 4px 4px 50px #eeeded;
-
 }
 
 .div-imagem {
@@ -142,6 +143,7 @@ main{
     flex: 1;
     margin: 10px;
     line-height: 1.08;
+    p{margin-bottom: 20px;}
 }
 
 #minhas-redes-sociais{
@@ -212,3 +214,37 @@ html {
     border: solid 0.5px black;
 }
 
+@media (max-width: 1024px) {
+
+    .div-perfil {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-imagem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfil-mokou {width: 120px; }
+
+    .imagem-recente {
+        align-items: center;
+        height: auto;
+    }
+
+    section {
+        margin: 10px;}
+
+    nav ul li {
+        padding: 10px;
+    }
+
+     #menu,
+     nav,
+     #footer-nav {font-size: 16px;}
+
+    h1 {font-size: 1.4rem;}
+    h2 {font-size: 1.2rem;}
+}
