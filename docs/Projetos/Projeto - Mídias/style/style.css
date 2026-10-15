@@ -1,6 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    iframe {
+        max-width: 560px ;
+        height:auto ;
+    }
 }
 
 body {
@@ -65,7 +69,7 @@ a:hover {
     text-decoration: underline;
     color: rgb(220, 173, 238);
     transform: scale(1.03);
-    
+
 }
 
 .div-texto-alinhado {
@@ -139,6 +143,9 @@ a:hover {
 
 .video {
 
+    max-width: 560px;
+    width: 100%;
+    height: auto;
     border: 1px solid rgb(208, 184, 218);
     flex-shrink: 0;
     transition: 0.3s ease;
@@ -225,3 +232,19 @@ footer{
     font-size: 20px;
 }
 
+@media (max-width: 1024px) {
+
+    .div-video {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 { font-size: 1.4rem; }
+    h2 { font-size: 1.2rem; }
+
+    menu,
+    nav,
+    footer {font-size: 16px;}
+
+}
