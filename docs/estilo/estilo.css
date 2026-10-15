@@ -1,11 +1,20 @@
 *{
     padding:0;
     margin:0;
-    img {
+}
 
-        width: 100%;
-        height: auto;
-    }
+*, 
+*::before,
+*::after {
+
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 p {
@@ -23,6 +32,9 @@ h2 {
 li {
     margin-bottom: 20px;
 }
+
+ul { list-style: none; }
+
 
 section {
     margin: 20px;
@@ -56,16 +68,26 @@ body{
     background-size: 20px 20px;
 }
 
-#menu {
+.menu {
 
     font-size: 20px;
     border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;    
 
 }
+
+
 
 main{
     max-width: 1200px;
     margin:0 auto;
+    padding-top: 55px;
 }
 
 #gostos{
@@ -125,7 +147,6 @@ main{
     transition: 0.3s ease;
     max-width: 560px;
     width: 100%;
-    height: 315px;
 }
 
 .imagem-recente:hover {
@@ -136,15 +157,21 @@ main{
 .div-imagem {
     display: flex;
     gap: 20px;
-    align-items: top;
+    align-items: flex-start;
+}
+
+.div-imagem ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 .div-texto-imagem {
     flex: 1;
     margin: 10px;
-    line-height: 1.08;
-    p{margin-bottom: 20px;}
+    line-height: 1.15;
 }
+
+.div-texto-imagem p {margin-bottom: 20px;}
 
 #minhas-redes-sociais{
     font-size: large;
@@ -170,13 +197,21 @@ footer{
 
 nav{
     background-color: rgb(8, 10, 10);
-    padding: 20px;
-    text-align: center;
+    border: solid 1px #faf9fa;    
+}
+
+nav ul {
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px;
+    list-style: none;
+  
 }
 
 nav ul li{
-    display:inline; 
-    padding:20px;
+    margin: 10px;
 }
 
 nav ul li a{
@@ -238,12 +273,18 @@ html {
         margin: 10px;}
 
     nav ul li {
-        padding: 10px;
+        margin: 5px; 
     }
 
-     #menu,
+    .menu {
+
+        font-size: 15px;
+        padding: 8px;
+
+    }
+
      nav,
-     #footer-nav {font-size: 16px;}
+     #footer-nav {font-size: 15px;}
 
     h1 {font-size: 1.4rem;}
     h2 {font-size: 1.2rem;}
