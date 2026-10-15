@@ -189,7 +189,7 @@ audio::-webkit-media-controls-play-button,
 .div-texto-video {
     flex: 1;
     margin: 10px;
-    line-height: 1.45;
+    line-height: 1.15;
 }
 
 ::-webkit-scrollbar {
